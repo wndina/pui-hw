@@ -1,0 +1,112 @@
+body{
+    font-family: sans-serif;
+}
+
+.indivProduct{
+    align-items: flex-start;
+    width: 150px;
+
+}
+
+.indivProduct:hover{
+    background-color: yellow;
+    width: 150px;
+}
+
+#productdetail{
+    align-items: flex-start;
+    width: 350px;
+}  
+
+#productdiscription{
+    padding-left: 70px;
+    align-items: flex-start;
+    width: 200px;
+}  
+
+#cartproduct{
+    text-align: center;
+    width: 350px;
+}  
+
+#button{
+    text-align: right;
+  
+}  
+
+
+#table{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.image{
+    border: 1px solid black;
+}
+
+
+
+#title{
+    font-size: 24px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.link{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.smallTitle{
+    font-size: 18px;
+}
+
+.dropdown{
+    width: 200px;
+    border: 2px solid black;
+}
+
+p{
+    font-size: 14px;
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+span:hover{
+   background-color: yellow;
+ 
+}
+
+small{
+    font-size: 12px;
+}
+
+
+button{
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 2px solid black
+
+}
+
+button:hover{
+    background-color: yellow;
+}
+
+form{
+    display: inline;
+}
