@@ -160,8 +160,7 @@ button{
 
 /* shopping cart page */
 .shoppingCart{
-   display: flex;
-   flex-grow: 1;
+   display: flex;  
    margin-top: 30px;
 }
 
@@ -171,6 +170,8 @@ button{
 
 .cartItemsDiv{
     padding-left: 30px;
+    justify-content: flex-start;
+    flex-grow: 1;
 }
 
 .cartPrice{
@@ -178,6 +179,7 @@ button{
     justify-content: flex-end;
     align-self: center;
     padding-left: 30px;
+    padding-right: 30px;
     font-size: 28px;
     font-weight: lighter;
 }
@@ -222,6 +224,7 @@ b{
     display: flex;
     justify-content: flex-end;
     padding-top: 50px;
+    padding-right: 30px;
 }
 
 
