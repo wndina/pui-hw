@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <!-- header -->
+    <div class="header">
+      <!-- logo image -->
+      <div class="logo">
+        <a href="index.html"><img id="logo" src="Assets/logo/logo-01.svg" alt="logo"  width="400"></a>
+      </div>
+
+      <!-- overall right hand section of the header -->
+      <div class="headerR">
+
+        <!-- menu with line -->
+        <div class="MenuL">         
+          <div class="menubox">
+            <div class="menuItem">
+              <a href="index.html">PRODUCTS</a>
+            </div>
+            <div class="menuItem">
+              <a id="cartPage" href="shoppingcart.html">CART</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- page title in header -->
+        <div class="headerTitle">
+          <p id="smallTitle">Shopping cart</p>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="shoppingCart">
+      <div class="emptyDiv"></div>    
+      <div class="cartItemsDiv">
+
+        <!-- shopping cart item 1 -->
+        <div class="cartRow">
+          <div class="cartImg">
+            <img class="image" src="Assets/products/original-cinnamon-roll.jpg" alt="original cinnamon roll"  width="150"><br>
+            <b>Remove</b>
+          </div>
+          <div class="iteminfo">
+            <div class="cartItemText">Original Cinnamon Roll<br>Glazing: Keep original<br>Pack Size:1</div>       
+            <div class="cartPrice">$2.49</div>
+          </div> 
+        </div>
+
+
+        <!-- shopping cart item 2 -->
+        <div class="cartRow">
+          <div class="cartImg">
+            <img class="image" src="Assets/products/double-chocolate-cinnamon-roll.jpg" alt="double chocolate cinnamon roll"  width="150"><br>
+            <b>Remove</b>
+          </div>
+          <div class="iteminfo">
+            <div class="cartItemText">Double Chocolate Cinnamon Roll<br>Glazing: Sugar milk<br>Pack Size:6</div>       
+            <div class="cartPrice">$27.45</div>
+          </div> 
+        </div>
+      
+
+        <!-- total price -->
+        <div class="bottom">
+          <div class="cartRow">
+            <div class="checkoutEmptydiv"></div>
+            <div class="iteminfo">           
+              <div class="cartItemText">Total</div>       
+              <div class="cartPrice">$29.94</div>
+            </div>
+          </div>
+
+          <div class="checkoutBtn"><button>Checkout</button></div>
+        </div>
+      
+
+      </div>
+        
+    </div>
+
+  </body>
+</html>
