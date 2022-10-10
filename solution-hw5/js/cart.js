@@ -79,7 +79,7 @@ function updateCart(cartItem) {
     cartItem.element.querySelector('#rollPackSize').innerText = "Pack Size: " + cartItem.size;
 
     //how to link to jason.js rolls rolltype 
-    cartItem.element.querySelector('.image').src = "Assets/products/" + cartItem.type + "-cinnamon-roll.jpg";
+    cartItem.element.querySelector('.image').src = "Assets/products/" + cartItem.type.toLowerCase() + "-cinnamon-roll.jpg";
 
     //calculate price
     const calculatedPrice = ((cartItem.basePrice + priceAdj[cartItem.glazing]) * sizeAdj[cartItem.size]).toFixed(2);
