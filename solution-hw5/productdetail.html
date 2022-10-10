@@ -1,0 +1,88 @@
+new <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Product detail</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="js/json.js"></script>
+    <script defer src="js/script.js"></script>
+    <script defer src="js/cart.js"></script>
+    
+  </head>
+
+  <body>
+    <!-- header -->
+    <div class="header">
+      <!-- logo image -->
+      <div class="logo">
+        <a href="index.html"><img id="logo" src="Assets/logo/logo-01.svg" alt="logo"  width="400"></a>
+      </div>
+
+      <!-- overall right hand section of the header -->
+      <div class="headerR">
+
+        <!-- menu with line -->
+        <div class="MenuL">         
+          <div class="menubox">
+            <div class="menuItem">
+              <a id="productPage" href="index.html">PRODUCTS</a>
+            </div>
+            <div class="menuItem">
+              <a href="shoppingcart.html">CART</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- page title in header -->
+        <div class="headerTitle">
+          <p id="smallTitle">Original cinnamon roll</p>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- product detail section -->
+    <div id="productdetail">
+      <!-- image -->
+      <div class="productdetailL">
+        <img class="image" id="productImg" src="" alt="original cinnamon roll"  width="600">
+      </div>
+
+      <!-- dectiption text -->
+      <div id="productdiscription">
+        <p>Customize our delicious, <br>hand-made cinnamon roll to <br>your liking!</p><br><br>
+          
+        <!-- dropdowns -->
+        <div class="drpbox">
+          <div class="dropdownTitle">
+            <p>Glazing:</p>
+          </div>
+          <div class="dropdownSelect">
+            <select class="dropdown" id="glazingOptions" onchange="glazingChange(this)"></select>
+          </div>
+        </div><br><br>
+
+        <div class="drpbox">
+          <div class="dropdownTitle">
+            <p>Pack size:</p>
+          </div>
+          <div class="dropdownSelect">
+            <select class="dropdown" id="packNumber" onchange="packChange(this)"></select>
+          </div>
+        </div>
+
+        <!-- add to cart -->
+        <div id="button">
+          <div class="price" id="totalPrice">$2.49</div>
+          <div class="addtocartBtn">
+            <button onclick="addToCart()">Add to Cart</button>
+          </div>
+        </div>
+
+      </div>
+  
+    </div>
+    
+  </body>
+</html>
