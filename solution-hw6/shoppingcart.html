@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="js/json.js"></script>
+    <script defer src="js/cart.js"></script>
+   
+  </head>
+
+  <body>
+    <!-- header -->
+    <div class="header">
+      <!-- logo image -->
+      <div class="logo">
+        <a href="index.html"><img id="logo" src="Assets/logo/logo-01.svg" alt="logo"  width="400"></a>
+      </div>
+
+      <!-- overall right hand section of the header -->
+      <div class="headerR">
+
+        <!-- menu with line -->
+        <div class="MenuL">         
+          <div class="menubox">
+            <div class="menuItem">
+              <a href="index.html">PRODUCTS</a>
+            </div>
+            <div class="menuItem">
+              <a id="cartPage" href="shoppingcart.html">CART</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- page title in header -->
+        <div class="headerTitle">
+          <p id="smallTitle">Shopping cart</p>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="shoppingCart">
+      <div class="emptyDiv"></div>    
+      <div class="cartItemsDiv">
+        
+        <!-- create a template -->
+
+        <template id="cartItem">
+
+        <!-- shopping cart item 1, need to fix css format-->
+          <div class="cartRow">
+            <div class="cartImg">
+              <img class="image" src="Assets/products/original-cinnamon-roll.jpg" alt="original cinnamon roll"  width="150"><br>
+              <b id="btnDelete">Remove</b>
+            </div>
+            <div class="iteminfo">
+              <div class="cartItemText">
+                <p id="rollName">Original Cinnamon Roll</p>
+                <p id="rollGlazing">Glazing: Keep original</p>
+                <p id="rollPackSize">Pack Size:1</p>
+              </div>       
+              <div class="cartPrice">
+                <p>$2.49</p>
+              </div>
+            </div> 
+          </div>
+        
+        </template>
+        
+
+
+        <!-- total price -->
+        <div class="bottom">
+          <div class="cartRow">
+            <div class="checkoutEmptydiv"></div>
+            <div class="iteminfo">           
+              <div class="cartItemText">Total</div>       
+              <div class="cartPrice" id="totalCartP"><p>Placeholder</p></div>
+            </div>
+          </div>
+
+          <div class="checkoutBtn"><button>Checkout</button></div>
+        </div>
+      
+
+      </div>
+        
+    </div>
+
+  </body>
+</html>

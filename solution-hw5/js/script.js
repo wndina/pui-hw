@@ -38,7 +38,7 @@ let Pack = [
 
 ];
 
-const basePrice = 2.49;
+
 
 
 let selectElementGlaze = document.querySelector('#glazingOptions');
@@ -59,6 +59,7 @@ for (let i=0; i<Pack.length; i++){
     option.value = Pack[i].priceAdj; 
     selectElementPack.add(option);
 }
+
 
 function glazingChange(element){
     const priceChange = parseFloat(element.value);//get value of selected glazing option
@@ -109,6 +110,8 @@ rollImage.src = rolls[rollType].imageFile;
 //update base price
 const bP= document.querySelector('#totalPrice');
 bP.innerText = rolls[rollType].basePrice;
+
+const basePrice = rolls[rollType].basePrice;
 
 //add to cart
 class Roll {
