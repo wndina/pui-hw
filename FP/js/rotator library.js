@@ -2,7 +2,7 @@
 
 
 
-!function($){
+jQuery_1_9_1(function($){
   
   var defaults = {
 		animation: "dissolve",
@@ -155,5 +155,6 @@
   }
   
 }(window.jQuery);
+)
 
 
