@@ -393,25 +393,25 @@ p {
     font-family: 'Antonio', sans-serif;
     font-weight: 100;
     font-size: 22px;
-    letter-spacing: 2em;
-    margin-right: -2em;
+    letter-spacing: 1.8em;
+    margin-right: -1.8em;
     text-align: center;
     color: white;
     margin-top: 5vh;
   }
   
   h2{
-    font-size: 20px;
+    font-size: 24px;
   }
 
   p{
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.2;
     padding-bottom: 20px;
   }
 
   .sect_one_text{
-    max-width: 50vw;
+    max-width: 75vw;
     display: block;
     justify-content: center;
     margin: auto;
