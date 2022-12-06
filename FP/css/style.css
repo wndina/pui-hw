@@ -386,7 +386,7 @@ p {
     height: auto;
     padding-left:30px;
     padding-top:40px;
-    padding-bottom: 240px;
+    padding-bottom: 200px;
   }
 
   h1 {
@@ -397,7 +397,7 @@ p {
     margin-right: -1.8em;
     text-align: center;
     color: white;
-    margin-top: 5vh;
+    margin-top: 70%;
   }
   
   h2{
@@ -432,7 +432,7 @@ p {
 
   .collection_intro{
     margin: auto;
-    max-width: 100%;
+    max-width: 75vw;
   }
 
   .footer-social{
