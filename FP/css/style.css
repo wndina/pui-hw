@@ -9,7 +9,7 @@ body{
   align-items: center;
   justify-content: center;
   background: rgb(255,255,255);
-background: linear-gradient(0deg, rgba(255,255,255,0) 00%, rgba(0,0,0,1) 50%);
+  background: linear-gradient(0deg, rgba(255,255,255,0) 00%, rgba(0,0,0,1) 50%);
 }
 
 .header{  
@@ -371,7 +371,13 @@ p {
     height: auto;
     padding-left:30px;
     padding-top:40px;
-    padding-bottom: 180px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+  }
+
+  .logoarea{
+    padding-bottom: 370px;
+    background-color: black;
   }
 
   h1 {
@@ -382,7 +388,7 @@ p {
     margin-right: -1.8em;
     text-align: center;
     color: white;
-    margin-top: 70%;
+    margin-top: 100%;
   }
   
   h2{
